@@ -1,0 +1,13 @@
+{
+    "CHAR_SET": "utf8",
+    "ENCRYPT": {
+        "JWT_ALGO": "RS256",
+        "CRYPTO_ALGO": "aes-256-cbc-hmac-sha256",
+        "CRYPTO_DIGEST": "base64",
+        "KEY": {
+            "PRIVATE": "./key/private.pem",
+            "PUBLIC": "./key/public.pem",
+            "PHRASE": "./key/phrase.json"
+        }
+    }
+}
